@@ -14,9 +14,9 @@ source:
   sha256: ae9d576dc3e660fa41209e85a5dcd688af2121127462f0b47cc2c69be2d52f2b
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,8 +41,7 @@ about:
   license: GPL (>= 2)
   summary: Open QIIME output files in R, compute statistics, and create plots from the data.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
