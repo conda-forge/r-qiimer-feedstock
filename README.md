@@ -1,11 +1,11 @@
-About r-qiimer
-==============
+About r-qiimer-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qiimer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://cran.r-project.org/web/packages/qiimer/index.html
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qiimer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Open QIIME output files in R, compute statistics, and create plots from the data.
 
